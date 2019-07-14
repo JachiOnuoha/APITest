@@ -1,0 +1,667 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B9F190DDBEF451512F8DCF92A55D30F /* AlgoResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E113D391A8E3A532B6C89E619D73392 /* AlgoResponse.swift */; };
+		1DCCB7147C973D962D9E5E8B039B07C1 /* AlgorithmRef.swift in Sources */ = {isa = PBXBuildFile; fileRef = 608AD0DD5B81E1ECC21F2833594E0D48 /* AlgorithmRef.swift */; };
+		36661805F25384748C668F35D0E6F95E /* AlgoAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52089722E9D2BAB2E37247598E5412C6 /* AlgoAPIClient.swift */; };
+		4828CE035A9DB26027332DF71A3EE0C5 /* AlgorithmiaAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77AF4D688AA60A9A146A4A531410B5F0 /* AlgorithmiaAuth.swift */; };
+		4A0D848933D048C622E54AA3800AA78A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		4AA20389BB0F2EDFBA06C878E488910A /* algorithmia-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 29AC9C8079CCC425207362FBD846AF87 /* algorithmia-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E4D0B3683ADE7149AC06EA362ABCF0A /* AlgoDataFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B1C5DA302AC1437AC6A5297E0C0471B /* AlgoDataFile.swift */; };
+		63B51BC52EE402E49D71E2935D7DC4D9 /* AlgoEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0808B759228F027C7BDEEA29FB6D8918 /* AlgoEntity.swift */; };
+		712BECE8A1318153227D74443C52AD15 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		892AA825EB5D8D3496B73316C9AAEB08 /* Algorithm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B8341DBF3B73E7C87E79D0D2254DF02 /* Algorithm.swift */; };
+		94D3EEE2DA313D46323D6237198F2F0D /* AlgoResponseData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8470D8D72CFE812FCA1FAC16A62E2ACA /* AlgoResponseData.swift */; };
+		9C4A5F098BE3F8CFA7B537AD4F45007E /* AlgoDataObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21720EE6B4D75AF2219B53344DC3FCA4 /* AlgoDataObject.swift */; };
+		ACBA5869C5B1290954D15C89DB6428EB /* AlgorithmiaClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = A938424F80BD577F8E06A4FADCBBBA6F /* AlgorithmiaClient.swift */; };
+		B0A4E925A4B965484FFD27C539DA179C /* Pods-APIdemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DAB96049CD3CACFD281AAAFC193E1C3D /* Pods-APIdemo-dummy.m */; };
+		B15823B6AF190E54EFA34CFFF231FBFC /* AlgorithmiaConf.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7349837715E160092B3FF33F3EC67CB /* AlgorithmiaConf.swift */; };
+		BB2BAF5D4C8EE2DAD9F8EDF1F6DA23D2 /* Pods-APIdemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F4389AEB83A1F3A1584923569F494F24 /* Pods-APIdemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C333A375892DFFAC01983AD331E7E12A /* AlgoOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63132DFDCFD0DBF12A56503104BDB23C /* AlgoOption.swift */; };
+		DF3704E78838BB5F311D5D50AB90995B /* AlgoRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79F0BBFEB33F403BA85DB5720C12A47F /* AlgoRequest.swift */; };
+		E288A64E987934D8F656C9BB63933819 /* AlgoError.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD60C0452FF811990BB6AE27B550116 /* AlgoError.swift */; };
+		E5E5807B6960DE54E3E24C499AF861D5 /* AlgorithmiaSimpleAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88CE1DBB15F6D8C0C59874CB83AB5A0F /* AlgorithmiaSimpleAuth.swift */; };
+		E7DDA84AD0B7ABF089C5235B34838696 /* AlgoDataDirectory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA847AC164F1F489BFA74332000FFA8 /* AlgoDataDirectory.swift */; };
+		E884FA84149773A1DA3B03E8F4FCEED6 /* Algorithmia.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA37A4CC12DFBC075F1405F4417EB533 /* Algorithmia.swift */; };
+		FEF0C1983F535D8FAC0E8F13A9BD0315 /* algorithmia-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E6CA1BB0B6B8DFAF64464CBC610A2C0 /* algorithmia-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		234069ADDBFEBD9781679AF8D237BDDC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 725758DCF333A57DD8A3D87CE71551CB;
+			remoteInfo = algorithmia;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0684790B8606E6EFDEFEA0FB50762B17 /* algorithmia.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = algorithmia.xcconfig; sourceTree = "<group>"; };
+		0808B759228F027C7BDEEA29FB6D8918 /* AlgoEntity.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AlgoEntity.swift; path = Algorithmia/Client/AlgoEntity.swift; sourceTree = "<group>"; };
+		0A1302AE25615537981A8F15D786A48E /* algorithmia.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = algorithmia.framework; path = algorithmia.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0BE33A88C018C4F0B98C6BA393750AE2 /* Pods-APIdemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-APIdemo-frameworks.sh"; sourceTree = "<group>"; };
+		0E6CA1BB0B6B8DFAF64464CBC610A2C0 /* algorithmia-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "algorithmia-dummy.m"; sourceTree = "<group>"; };
+		11C5763434EB8A698F9CF97D558A303E /* algorithmia-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "algorithmia-prefix.pch"; sourceTree = "<group>"; };
+		21720EE6B4D75AF2219B53344DC3FCA4 /* AlgoDataObject.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AlgoDataObject.swift; path = Algorithmia/Data/AlgoDataObject.swift; sourceTree = "<group>"; };
+		29AC9C8079CCC425207362FBD846AF87 /* algorithmia-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "algorithmia-umbrella.h"; sourceTree = "<group>"; };
+		2E113D391A8E3A532B6C89E619D73392 /* AlgoResponse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AlgoResponse.swift; path = Algorithmia/Client/AlgoResponse.swift; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		5157702D83B1417620F29EA5C8E7BDD1 /* Pods-APIdemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-APIdemo.modulemap"; sourceTree = "<group>"; };
+		52089722E9D2BAB2E37247598E5412C6 /* AlgoAPIClient.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AlgoAPIClient.swift; path = Algorithmia/Client/AlgoAPIClient.swift; sourceTree = "<group>"; };
+		57FF6160C9CD95916FE5193B4ECDAFB2 /* algorithmia-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "algorithmia-Info.plist"; sourceTree = "<group>"; };
+		608AD0DD5B81E1ECC21F2833594E0D48 /* AlgorithmRef.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AlgorithmRef.swift; path = Algorithmia/Algorithm/AlgorithmRef.swift; sourceTree = "<group>"; };
+		63132DFDCFD0DBF12A56503104BDB23C /* AlgoOption.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AlgoOption.swift; path = Algorithmia/Algorithm/AlgoOption.swift; sourceTree = "<group>"; };
+		70DE605DEEFF6F0B7DCDE16FE8FAA98B /* Pods-APIdemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-APIdemo.release.xcconfig"; sourceTree = "<group>"; };
+		75F5527A16D1F6752D49B249B1F8FD14 /* Pods-APIdemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-APIdemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		77AF4D688AA60A9A146A4A531410B5F0 /* AlgorithmiaAuth.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AlgorithmiaAuth.swift; path = Algorithmia/Client/Auth/AlgorithmiaAuth.swift; sourceTree = "<group>"; };
+		79F0BBFEB33F403BA85DB5720C12A47F /* AlgoRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AlgoRequest.swift; path = Algorithmia/Client/AlgoRequest.swift; sourceTree = "<group>"; };
+		8470D8D72CFE812FCA1FAC16A62E2ACA /* AlgoResponseData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AlgoResponseData.swift; path = Algorithmia/Client/AlgoResponseData.swift; sourceTree = "<group>"; };
+		88CE1DBB15F6D8C0C59874CB83AB5A0F /* AlgorithmiaSimpleAuth.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AlgorithmiaSimpleAuth.swift; path = Algorithmia/Client/Auth/AlgorithmiaSimpleAuth.swift; sourceTree = "<group>"; };
+		9B1C5DA302AC1437AC6A5297E0C0471B /* AlgoDataFile.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AlgoDataFile.swift; path = Algorithmia/Data/AlgoDataFile.swift; sourceTree = "<group>"; };
+		9B8341DBF3B73E7C87E79D0D2254DF02 /* Algorithm.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Algorithm.swift; path = Algorithmia/Algorithm/Algorithm.swift; sourceTree = "<group>"; };
+		9BA847AC164F1F489BFA74332000FFA8 /* AlgoDataDirectory.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AlgoDataDirectory.swift; path = Algorithmia/Data/AlgoDataDirectory.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A522086C1D676C98362A207569FD6B81 /* Pods-APIdemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-APIdemo.debug.xcconfig"; sourceTree = "<group>"; };
+		A938424F80BD577F8E06A4FADCBBBA6F /* AlgorithmiaClient.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AlgorithmiaClient.swift; path = Algorithmia/AlgorithmiaClient.swift; sourceTree = "<group>"; };
+		AFD60C0452FF811990BB6AE27B550116 /* AlgoError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AlgoError.swift; path = Algorithmia/Algorithm/AlgoError.swift; sourceTree = "<group>"; };
+		BA37A4CC12DFBC075F1405F4417EB533 /* Algorithmia.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Algorithmia.swift; path = Algorithmia/Algorithmia.swift; sourceTree = "<group>"; };
+		C53CDC3B243F8A280665C69F799D19D3 /* Pods_APIdemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_APIdemo.framework; path = "Pods-APIdemo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5507C51F765DC273179C091C80B8160 /* algorithmia.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = algorithmia.modulemap; sourceTree = "<group>"; };
+		D9AEE3C89108BD490BD2B3905C1C41ED /* Pods-APIdemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-APIdemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		DAB96049CD3CACFD281AAAFC193E1C3D /* Pods-APIdemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-APIdemo-dummy.m"; sourceTree = "<group>"; };
+		E7349837715E160092B3FF33F3EC67CB /* AlgorithmiaConf.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AlgorithmiaConf.swift; path = Algorithmia/AlgorithmiaConf.swift; sourceTree = "<group>"; };
+		F4389AEB83A1F3A1584923569F494F24 /* Pods-APIdemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-APIdemo-umbrella.h"; sourceTree = "<group>"; };
+		F8EA4BF51737B489D30AE50A40AA2506 /* Pods-APIdemo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-APIdemo-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		621142162FD84DD8497135FA0C027B87 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A0D848933D048C622E54AA3800AA78A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A314650E96ECDDF36499B44A3986E77 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				712BECE8A1318153227D74443C52AD15 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00ED44E5F1C3EDEDF08A0C223654FF90 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0A1302AE25615537981A8F15D786A48E /* algorithmia.framework */,
+				C53CDC3B243F8A280665C69F799D19D3 /* Pods_APIdemo.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0F9A1789F244731C9CD47FC80B5B0A68 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AB1004049201F0A92D1DFB486ABA6F1F /* algorithmia */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		54C7FE20B381655006E77D90C56F5FFB /* Pods-APIdemo */ = {
+			isa = PBXGroup;
+			children = (
+				5157702D83B1417620F29EA5C8E7BDD1 /* Pods-APIdemo.modulemap */,
+				75F5527A16D1F6752D49B249B1F8FD14 /* Pods-APIdemo-acknowledgements.markdown */,
+				D9AEE3C89108BD490BD2B3905C1C41ED /* Pods-APIdemo-acknowledgements.plist */,
+				DAB96049CD3CACFD281AAAFC193E1C3D /* Pods-APIdemo-dummy.m */,
+				0BE33A88C018C4F0B98C6BA393750AE2 /* Pods-APIdemo-frameworks.sh */,
+				F8EA4BF51737B489D30AE50A40AA2506 /* Pods-APIdemo-Info.plist */,
+				F4389AEB83A1F3A1584923569F494F24 /* Pods-APIdemo-umbrella.h */,
+				A522086C1D676C98362A207569FD6B81 /* Pods-APIdemo.debug.xcconfig */,
+				70DE605DEEFF6F0B7DCDE16FE8FAA98B /* Pods-APIdemo.release.xcconfig */,
+			);
+			name = "Pods-APIdemo";
+			path = "Target Support Files/Pods-APIdemo";
+			sourceTree = "<group>";
+		};
+		57524C9339D977246BAE6A5E3B024C33 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D5507C51F765DC273179C091C80B8160 /* algorithmia.modulemap */,
+				0684790B8606E6EFDEFEA0FB50762B17 /* algorithmia.xcconfig */,
+				0E6CA1BB0B6B8DFAF64464CBC610A2C0 /* algorithmia-dummy.m */,
+				57FF6160C9CD95916FE5193B4ECDAFB2 /* algorithmia-Info.plist */,
+				11C5763434EB8A698F9CF97D558A303E /* algorithmia-prefix.pch */,
+				29AC9C8079CCC425207362FBD846AF87 /* algorithmia-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/algorithmia";
+			sourceTree = "<group>";
+		};
+		AB1004049201F0A92D1DFB486ABA6F1F /* algorithmia */ = {
+			isa = PBXGroup;
+			children = (
+				52089722E9D2BAB2E37247598E5412C6 /* AlgoAPIClient.swift */,
+				9BA847AC164F1F489BFA74332000FFA8 /* AlgoDataDirectory.swift */,
+				9B1C5DA302AC1437AC6A5297E0C0471B /* AlgoDataFile.swift */,
+				21720EE6B4D75AF2219B53344DC3FCA4 /* AlgoDataObject.swift */,
+				0808B759228F027C7BDEEA29FB6D8918 /* AlgoEntity.swift */,
+				AFD60C0452FF811990BB6AE27B550116 /* AlgoError.swift */,
+				63132DFDCFD0DBF12A56503104BDB23C /* AlgoOption.swift */,
+				79F0BBFEB33F403BA85DB5720C12A47F /* AlgoRequest.swift */,
+				2E113D391A8E3A532B6C89E619D73392 /* AlgoResponse.swift */,
+				8470D8D72CFE812FCA1FAC16A62E2ACA /* AlgoResponseData.swift */,
+				9B8341DBF3B73E7C87E79D0D2254DF02 /* Algorithm.swift */,
+				BA37A4CC12DFBC075F1405F4417EB533 /* Algorithmia.swift */,
+				77AF4D688AA60A9A146A4A531410B5F0 /* AlgorithmiaAuth.swift */,
+				A938424F80BD577F8E06A4FADCBBBA6F /* AlgorithmiaClient.swift */,
+				E7349837715E160092B3FF33F3EC67CB /* AlgorithmiaConf.swift */,
+				88CE1DBB15F6D8C0C59874CB83AB5A0F /* AlgorithmiaSimpleAuth.swift */,
+				608AD0DD5B81E1ECC21F2833594E0D48 /* AlgorithmRef.swift */,
+				57524C9339D977246BAE6A5E3B024C33 /* Support Files */,
+			);
+			name = algorithmia;
+			path = algorithmia;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C392B8D76CC56F7C767D8AF3B808959D /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				54C7FE20B381655006E77D90C56F5FFB /* Pods-APIdemo */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				0F9A1789F244731C9CD47FC80B5B0A68 /* Pods */,
+				00ED44E5F1C3EDEDF08A0C223654FF90 /* Products */,
+				C392B8D76CC56F7C767D8AF3B808959D /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		42FB4EE17E9286037589972B122C5BE2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB2BAF5D4C8EE2DAD9F8EDF1F6DA23D2 /* Pods-APIdemo-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD4032890F0EEEFEDBF7DEA00F3E61EB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AA20389BB0F2EDFBA06C878E488910A /* algorithmia-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		24BA58836CC56CF8366C8F923766D7A3 /* Pods-APIdemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7714EF115C8879C6FF66ED7EDBA96F2D /* Build configuration list for PBXNativeTarget "Pods-APIdemo" */;
+			buildPhases = (
+				42FB4EE17E9286037589972B122C5BE2 /* Headers */,
+				5D37C7C28B6C5C60914CF2E59E20B37B /* Sources */,
+				6A314650E96ECDDF36499B44A3986E77 /* Frameworks */,
+				90BDB17E5493E03FF6E414BD5363F023 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3B8852D228CDE5DFF6F593E9F2ABE7D2 /* PBXTargetDependency */,
+			);
+			name = "Pods-APIdemo";
+			productName = "Pods-APIdemo";
+			productReference = C53CDC3B243F8A280665C69F799D19D3 /* Pods_APIdemo.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		725758DCF333A57DD8A3D87CE71551CB /* algorithmia */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9264EBB563AEDAD9CB8E5875C434918B /* Build configuration list for PBXNativeTarget "algorithmia" */;
+			buildPhases = (
+				FD4032890F0EEEFEDBF7DEA00F3E61EB /* Headers */,
+				10C4EFC216F6A2FE08B976EBB7698EF4 /* Sources */,
+				621142162FD84DD8497135FA0C027B87 /* Frameworks */,
+				1618FF031413487FA9DDEE7914475388 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = algorithmia;
+			productName = algorithmia;
+			productReference = 0A1302AE25615537981A8F15D786A48E /* algorithmia.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 00ED44E5F1C3EDEDF08A0C223654FF90 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				725758DCF333A57DD8A3D87CE71551CB /* algorithmia */,
+				24BA58836CC56CF8366C8F923766D7A3 /* Pods-APIdemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1618FF031413487FA9DDEE7914475388 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90BDB17E5493E03FF6E414BD5363F023 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		10C4EFC216F6A2FE08B976EBB7698EF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36661805F25384748C668F35D0E6F95E /* AlgoAPIClient.swift in Sources */,
+				E7DDA84AD0B7ABF089C5235B34838696 /* AlgoDataDirectory.swift in Sources */,
+				5E4D0B3683ADE7149AC06EA362ABCF0A /* AlgoDataFile.swift in Sources */,
+				9C4A5F098BE3F8CFA7B537AD4F45007E /* AlgoDataObject.swift in Sources */,
+				63B51BC52EE402E49D71E2935D7DC4D9 /* AlgoEntity.swift in Sources */,
+				E288A64E987934D8F656C9BB63933819 /* AlgoError.swift in Sources */,
+				C333A375892DFFAC01983AD331E7E12A /* AlgoOption.swift in Sources */,
+				DF3704E78838BB5F311D5D50AB90995B /* AlgoRequest.swift in Sources */,
+				0B9F190DDBEF451512F8DCF92A55D30F /* AlgoResponse.swift in Sources */,
+				94D3EEE2DA313D46323D6237198F2F0D /* AlgoResponseData.swift in Sources */,
+				892AA825EB5D8D3496B73316C9AAEB08 /* Algorithm.swift in Sources */,
+				FEF0C1983F535D8FAC0E8F13A9BD0315 /* algorithmia-dummy.m in Sources */,
+				E884FA84149773A1DA3B03E8F4FCEED6 /* Algorithmia.swift in Sources */,
+				4828CE035A9DB26027332DF71A3EE0C5 /* AlgorithmiaAuth.swift in Sources */,
+				ACBA5869C5B1290954D15C89DB6428EB /* AlgorithmiaClient.swift in Sources */,
+				B15823B6AF190E54EFA34CFFF231FBFC /* AlgorithmiaConf.swift in Sources */,
+				E5E5807B6960DE54E3E24C499AF861D5 /* AlgorithmiaSimpleAuth.swift in Sources */,
+				1DCCB7147C973D962D9E5E8B039B07C1 /* AlgorithmRef.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D37C7C28B6C5C60914CF2E59E20B37B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0A4E925A4B965484FFD27C539DA179C /* Pods-APIdemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3B8852D228CDE5DFF6F593E9F2ABE7D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = algorithmia;
+			target = 725758DCF333A57DD8A3D87CE71551CB /* algorithmia */;
+			targetProxy = 234069ADDBFEBD9781679AF8D237BDDC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		204B8AEA4AE90A551A1768B355C2F9F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		3CCC6195EDBEE5DA2A49DF962113BE16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		44DF8660F01EF56DB71FE430758728E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0684790B8606E6EFDEFEA0FB50762B17 /* algorithmia.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/algorithmia/algorithmia-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/algorithmia/algorithmia-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/algorithmia/algorithmia.modulemap";
+				PRODUCT_MODULE_NAME = algorithmia;
+				PRODUCT_NAME = algorithmia;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		889CC8CC0775D7CDFEC6DEC1FE0869F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70DE605DEEFF6F0B7DCDE16FE8FAA98B /* Pods-APIdemo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-APIdemo/Pods-APIdemo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-APIdemo/Pods-APIdemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D0B2785D8CB15F8D941DBD57CEE0B070 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A522086C1D676C98362A207569FD6B81 /* Pods-APIdemo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-APIdemo/Pods-APIdemo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-APIdemo/Pods-APIdemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DCCFAF1B539CA7BD511D9494DEC9F4A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0684790B8606E6EFDEFEA0FB50762B17 /* algorithmia.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/algorithmia/algorithmia-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/algorithmia/algorithmia-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/algorithmia/algorithmia.modulemap";
+				PRODUCT_MODULE_NAME = algorithmia;
+				PRODUCT_NAME = algorithmia;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				204B8AEA4AE90A551A1768B355C2F9F0 /* Debug */,
+				3CCC6195EDBEE5DA2A49DF962113BE16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7714EF115C8879C6FF66ED7EDBA96F2D /* Build configuration list for PBXNativeTarget "Pods-APIdemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0B2785D8CB15F8D941DBD57CEE0B070 /* Debug */,
+				889CC8CC0775D7CDFEC6DEC1FE0869F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9264EBB563AEDAD9CB8E5875C434918B /* Build configuration list for PBXNativeTarget "algorithmia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44DF8660F01EF56DB71FE430758728E9 /* Debug */,
+				DCCFAF1B539CA7BD511D9494DEC9F4A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

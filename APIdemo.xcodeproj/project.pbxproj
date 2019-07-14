@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,7 @@
 		5DAA5D6B22DA9EA200C6BDB5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DAA5D6922DA9EA200C6BDB5 /* Main.storyboard */; };
 		5DAA5D6D22DA9EA300C6BDB5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DAA5D6C22DA9EA300C6BDB5 /* Assets.xcassets */; };
 		5DAA5D7022DA9EA300C6BDB5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DAA5D6E22DA9EA300C6BDB5 /* LaunchScreen.storyboard */; };
+		5DEF64F922DB1A6D000FDEF3 /* jack_london.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5DEF64F822DB1A6D000FDEF3 /* jack_london.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		5DAA5D6C22DA9EA300C6BDB5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5DAA5D6F22DA9EA300C6BDB5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5DAA5D7122DA9EA300C6BDB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5DEF64F822DB1A6D000FDEF3 /* jack_london.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = jack_london.txt; path = ../../../jack_london.txt; sourceTree = "<group>"; };
 		A5CEC199395E6E81FC5A8E28 /* Pods-APIdemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-APIdemo.debug.xcconfig"; path = "Target Support Files/Pods-APIdemo/Pods-APIdemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -69,6 +71,7 @@
 		5DAA5D6422DA9EA200C6BDB5 /* APIdemo */ = {
 			isa = PBXGroup;
 			children = (
+				5DEF64F822DB1A6D000FDEF3 /* jack_london.txt */,
 				5DAA5D6522DA9EA200C6BDB5 /* AppDelegate.swift */,
 				5DAA5D6722DA9EA200C6BDB5 /* ViewController.swift */,
 				5DAA5D6922DA9EA200C6BDB5 /* Main.storyboard */,
@@ -85,7 +88,6 @@
 				A5CEC199395E6E81FC5A8E28 /* Pods-APIdemo.debug.xcconfig */,
 				11713A83FCD2B4277BE7FE9E /* Pods-APIdemo.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -152,6 +154,7 @@
 				5DAA5D7022DA9EA300C6BDB5 /* LaunchScreen.storyboard in Resources */,
 				5DAA5D6D22DA9EA300C6BDB5 /* Assets.xcassets in Resources */,
 				5DAA5D6B22DA9EA200C6BDB5 /* Main.storyboard in Resources */,
+				5DEF64F922DB1A6D000FDEF3 /* jack_london.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
