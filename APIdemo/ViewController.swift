@@ -22,7 +22,7 @@ class ViewController: UIViewController {
                     // Calls MeaningCloud API on the string
                     var request = URLRequest(url: URL(string: "https://api.meaningcloud.com/summarization-1.0")!)
                     request.httpMethod = "POST"
-                    request.httpBody = "key=b001e406c6b0310910ff2ddaf4d63b3a&txt=\(document)&sentences=5".data(using: .utf8)  //try? JSONSerialization.data(withJSONObject: params, options: [])
+                    request.httpBody = "key=API_KEY&txt=\(document)&sentences=5".data(using: .utf8)  //try? JSONSerialization.data(withJSONObject: params, options: [])
                     request.addValue("application/x-www-form-urlencoded", forHTTPHeaderField: "Content-Type")
                     
                     let session = URLSession.shared
