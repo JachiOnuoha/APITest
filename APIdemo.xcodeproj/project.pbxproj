@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		28A6D3C9A5328096A8813FDA /* Pods_APIdemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D038FDF4CE6C20243D78849 /* Pods_APIdemo.framework */; };
+		5D74A3BA22E04B6C004BBFE8 /* gifView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D74A3B922E04B6C004BBFE8 /* gifView.swift */; };
+		5D74A3BC22E04BFD004BBFE8 /* samurai.gif in Resources */ = {isa = PBXBuildFile; fileRef = 5D74A3BB22E04BFD004BBFE8 /* samurai.gif */; };
 		5DAA5D6622DA9EA200C6BDB5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DAA5D6522DA9EA200C6BDB5 /* AppDelegate.swift */; };
 		5DAA5D6822DA9EA200C6BDB5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DAA5D6722DA9EA200C6BDB5 /* ViewController.swift */; };
 		5DAA5D6B22DA9EA200C6BDB5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DAA5D6922DA9EA200C6BDB5 /* Main.storyboard */; };
@@ -19,6 +21,8 @@
 /* Begin PBXFileReference section */
 		11713A83FCD2B4277BE7FE9E /* Pods-APIdemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-APIdemo.release.xcconfig"; path = "Target Support Files/Pods-APIdemo/Pods-APIdemo.release.xcconfig"; sourceTree = "<group>"; };
 		5D038FDF4CE6C20243D78849 /* Pods_APIdemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_APIdemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D74A3B922E04B6C004BBFE8 /* gifView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gifView.swift; sourceTree = "<group>"; };
+		5D74A3BB22E04BFD004BBFE8 /* samurai.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = samurai.gif; path = ../../../mySumurai/samurai.gif; sourceTree = "<group>"; };
 		5DAA5D6222DA9EA200C6BDB5 /* APIdemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = APIdemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DAA5D6522DA9EA200C6BDB5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5DAA5D6722DA9EA200C6BDB5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -72,8 +76,10 @@
 			isa = PBXGroup;
 			children = (
 				5DEF64F822DB1A6D000FDEF3 /* jack_london.txt */,
+				5D74A3BB22E04BFD004BBFE8 /* samurai.gif */,
 				5DAA5D6522DA9EA200C6BDB5 /* AppDelegate.swift */,
 				5DAA5D6722DA9EA200C6BDB5 /* ViewController.swift */,
+				5D74A3B922E04B6C004BBFE8 /* gifView.swift */,
 				5DAA5D6922DA9EA200C6BDB5 /* Main.storyboard */,
 				5DAA5D6C22DA9EA300C6BDB5 /* Assets.xcassets */,
 				5DAA5D6E22DA9EA300C6BDB5 /* LaunchScreen.storyboard */,
@@ -153,6 +159,7 @@
 			files = (
 				5DAA5D7022DA9EA300C6BDB5 /* LaunchScreen.storyboard in Resources */,
 				5DAA5D6D22DA9EA300C6BDB5 /* Assets.xcassets in Resources */,
+				5D74A3BC22E04BFD004BBFE8 /* samurai.gif in Resources */,
 				5DAA5D6B22DA9EA200C6BDB5 /* Main.storyboard in Resources */,
 				5DEF64F922DB1A6D000FDEF3 /* jack_london.txt in Resources */,
 			);
@@ -209,6 +216,7 @@
 			files = (
 				5DAA5D6822DA9EA200C6BDB5 /* ViewController.swift in Sources */,
 				5DAA5D6622DA9EA200C6BDB5 /* AppDelegate.swift in Sources */,
+				5D74A3BA22E04B6C004BBFE8 /* gifView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
